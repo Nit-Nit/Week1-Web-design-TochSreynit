@@ -1,0 +1,8 @@
+1. action.html -> cinema.html : <a href="../cinema.html">
+2. home.html -> song.html : <a href="./music/song.html">
+3. help.html -> action.html : <a href="./movies/action_movie/action.html">
+4. cinema.html -> help.html : <a href="../help.html">
+5. action.html -> home.html : <a href="../../home.html">
+6. cinema.html -> action.html : <a href="./action_movies/action.html">
+7. song.html -> action.html : <a href="./movies/action_movies/action.html">
+8. action.html -> song.html : <a href="../song.html">
