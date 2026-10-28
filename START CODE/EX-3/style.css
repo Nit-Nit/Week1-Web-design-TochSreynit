@@ -1,0 +1,16 @@
+/* TODO */
+.button {
+    background-color: #e3dcfa;
+    border: 2px solid #d1c5f7;
+    color: #4f437a;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 22px;
+    border-radius: 30px;       
+    cursor: pointer;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #d1c5f7;
+    border-color: #bfaef5;
+}
