@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.bar {
+  background-color: pink;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+#toggle,
+.icon {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .bar {
+    flex-wrap: wrap;
+  }
+
+  .icon {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .menu a {
+    margin: 10px 0;
+  }
+
+  #toggle:checked ~ .menu {
+    display: flex;
+  }
+}
